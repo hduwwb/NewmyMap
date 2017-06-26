@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发送间隔"/>
+        <Spinner
+            android:layout_marginLeft="20dp"
+            android:id="@+id/spinner_jiange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/jiange"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发送次数"/>
+        <Spinner
+            android:layout_marginLeft="20dp"
+
+            android:id="@+id/spinner_cishu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/cishu"
+            />
+    </LinearLayout>
+
+</LinearLayout>

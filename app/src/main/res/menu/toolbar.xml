@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/scan"
+          android:title="扫描蓝牙设备"
+          android:icon="@drawable/ic_bluetooth_searching_white_24dp"
+          app:showAsAction="always"/>
+    <item android:id="@+id/share"
+          android:icon="@drawable/ic_share_white_24dp"
+          android:title="分享"
+          app:showAsAction="always"/>
+    <item android:id="@+id/discoverable"
+          android:title="开启设备可见"
+          app:showAsAction="never"/>
+    <item android:id="@+id/about"
+          android:title="关于"
+          app:showAsAction="never"/>
+
+</menu>

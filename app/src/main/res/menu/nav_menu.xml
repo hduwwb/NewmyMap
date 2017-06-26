@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_scan"
+              android:title="扫描蓝牙设备"
+              android:icon="@drawable/ic_bluetooth_searching_white_24dp"/>
+
+        <item android:id="@+id/nav_disConnect"
+              android:title="断开连接"
+              android:icon="@drawable/ic_bluetooth_disabled_white_24dp"/>
+        <item android:id="@+id/nav_friends"
+              android:title="我的联系人"
+              android:icon="@drawable/ic_perm_contact_calendar_white_24dp"/>
+        <item android:id="@+id/help"
+              android:title="紧急求救"
+              android:icon="@drawable/ic_pan_tool_white_24dp"/>
+        <item android:id="@+id/msgSet"
+              android:title="短信频率设置"
+              android:icon="@drawable/ic_textsms_white_24dp"/>
+        <item android:id="@+id/nav_send"
+              android:title="发送测试数据"
+             android:icon="@drawable/ic_send_white_24dp"/>
+        <item android:id="@+id/history"
+              android:title="历史记录"
+              android:icon="@drawable/ic_history_white_24dp"/>
+    </group>
+</menu>
